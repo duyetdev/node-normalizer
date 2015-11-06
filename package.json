@@ -1,0 +1,30 @@
+{
+  "name": "node-normalizer",
+  "version": "0.0.1",
+  "description": "Expanded string to their full meaning for vietnamese.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duyetdev/node-normalizer.git"
+  },
+  "keywords": [
+    "node",
+    "vietnamese",
+    "duyetdev",
+    "normalizer",
+    "npl",
+    "vntokenizer"
+  ],
+  "author": "Van-Duyet Le",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duyetdev/node-normalizer/issues"
+  },
+  "homepage": "https://github.com/duyetdev/node-normalizer#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
