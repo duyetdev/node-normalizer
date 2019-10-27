@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/duyetdev/node-normalizer#readme",
   "devDependencies": {
-    "mocha": "^2.3.3"
+    "mocha": "2.5.3"
   },
   "dependencies": {
     "lodash": "^3.10.1"
