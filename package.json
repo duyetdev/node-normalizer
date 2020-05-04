@@ -4,7 +4,9 @@
   "description": "Expanded string to their full meaning for vietnamese.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,8 @@
     "mocha": "7.1.2"
   },
   "dependencies": {
-    "lodash": "^4.0.0"
-  }
+    "lodash": "^4.0.0",
+    "snyk": "^1.317.0"
+  },
+  "snyk": true
 }
